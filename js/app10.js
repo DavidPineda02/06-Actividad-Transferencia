@@ -6,12 +6,10 @@
 // c. Precios de diferentes camisetas.
 // d. Descripción de un computador portátil.
 
-// a. Lista de colores favoritos: Usaría un arreglo porque es una colección de elementos similares donde el orden importa.
-let coloresFav = ["Negro", "Blanco", "Azul", "Celeste", "Rojo"];
-console.log(`Colores favoritos: ${coloresFav.join(", ")}`);
+const coloresFav = ["Negro", "Blanco", "Azul", "Celeste", "Rojo"];
+console.log(`Colores favoritos: ${coloresFav}`);
 
-// b. Información completa de un estudiante: Usaría un objeto porque se trata de propiedades específicas que describen a un estudiante.
-let aprendiz = {
+const aprendiz = {
     "nombre": "Jensen Rodriguez",
     "edad": 21,
     "carrera": "Ginecologo",
@@ -19,12 +17,10 @@ let aprendiz = {
 };
 console.log(`\nInformación del estudiante: ${aprendiz.nombre}, ${aprendiz.edad} años, estudia ${aprendiz.carrera} en ${aprendiz.universidad}.`);
 
-// c. Precios de diferentes camisetas: Usaría un arreglo porque es una lista de valores numéricos relacionados.
-let preciosCam = [15000, 20000, 25000, 30000, 35000];
-console.log(`\nPrecios de camisetas: ${preciosCam.join(", ")}`);
+const preciosCam = [15000, 20000, 25000, 30000, 35000];
+console.log(`\nPrecios de camisetas: ${preciosCam}`);
 
-// d. Descripción de un computador portátil: Usaría un objeto porque se trata de características específicas del portátil.
-let portatil = {
+const portatil = {
     "marca": "HP",
     "modelo": "HP Envy 15",
     "procesador": "Intel Core i7",
