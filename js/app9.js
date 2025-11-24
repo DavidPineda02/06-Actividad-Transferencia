@@ -3,7 +3,7 @@
 // nombre, precio y disponibilidad. Recorra el arreglo y muestre solo el nombre de
 // cada producto.
 
-let productos = [
+const productos = [
     {
         "nombre": "Portatil",
         "precio": 5300000,

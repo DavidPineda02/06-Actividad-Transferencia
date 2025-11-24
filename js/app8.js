@@ -3,7 +3,7 @@
 // propiedades, por ejemplo:
 // "El libro '___' del autor ___ pertenece al género ___."
 
-let libro = {
+const libro = {
     "titulo": "Cien Años de Soledad",
     "autor": "Gabriel García Márquez",
     "numero de paginas": 417,

@@ -3,7 +3,7 @@
 // propiedades. Recorra sus claves y valores usando un ciclo for...of sobre
 // Object.entries().
 
-let inventario = {
+const inventario = {
     "Producto": "Televisor",
     "Marca": "LG", 
     "Pulgadas": 80,
@@ -11,7 +11,6 @@ let inventario = {
     "Stock": 30
 };
 
-// Recorrer las claves y valores del objeto usando for...of sobre Object.entries()
 for (let [clave, valor] of Object.entries(inventario)) {
     console.log(`${clave}: ${valor}`);
 }

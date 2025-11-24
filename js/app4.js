@@ -2,7 +2,7 @@
 // marca, modelo, año y estado. Muestre cada propiedad en consola de manera
 // individual.
 
-let celular = {
+const celular = {
     "marca": "Apple",
     "modelo": "iPhone 17 Pro Max",
     "año": 2025,
